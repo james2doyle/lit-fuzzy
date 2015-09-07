@@ -4,6 +4,7 @@ local sort = require('table').sort
 
 local levenshtein = require('./init')
 
+-- Im looking for the word "Lorem" in my table of sentences
 local query = 'Lorem'
 
 -- a list of sentences we are going to compare to our query
