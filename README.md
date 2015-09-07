@@ -3,6 +3,12 @@ Fuzzy
 
 A Lit package that can preform a fuzzy comparison on 2 strings using the [Levenshtein Distance algorithm](https://en.wikipedia.org/wiki/Levenshtein_distance). Originally forked from [this gist](Forked from this gist: https://gist.github.com/Badgerati/3261142), and modified to fit the Lit style.
 
+### Install
+
+```
+lit install james2doyle/fuzzy
+```
+
 ### How It Works
 
 The "Levenshtein distance algorithm", returns a number when comparing 2 strings. This number, represent the number of changes needed to be made to the first string, in order to create a result like the second string.
